@@ -12,7 +12,6 @@ int main(void)
 	for (single = 0; single < 10; single++)
 	{
 		printf("%d", single);
-		
 	}
 	putchar('\n');
 		return (0);
