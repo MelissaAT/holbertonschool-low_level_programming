@@ -12,8 +12,7 @@ int main(void)
 	for (single = 0; single <= 9; single++)
 		putchar((single % 10) + '0');
 	if (single == 9)
-		continue;
-
+		
 	putchar(',');
 	putchar(' ');
 
