@@ -3,6 +3,7 @@
 /**
  *  _islower - a function that checks for the lowercase character
  *
+ * @c: variable
  *  Return: Always (succes)
  */
 
