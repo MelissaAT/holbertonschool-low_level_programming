@@ -3,6 +3,7 @@
 /**
  * _isalpha - function that checks for alphabeti charactr
  *
+ * @c: variable
  * Return: 0 otherwise
  */
 
