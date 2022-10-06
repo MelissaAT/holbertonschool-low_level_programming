@@ -3,6 +3,7 @@
 /**
  * print_sign - prints the sing of a number
  *
+ * @n: variable
  * n: variable
  * Return: 1 prints + if n is greater than zero, 0  prints 0 if n is zero
  */
