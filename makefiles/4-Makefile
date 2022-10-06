@@ -8,14 +8,10 @@ all: $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 clean:
 	$(RM) $(NAME)
-
 oclean:
-
 	$(RM) $(OBJ) $(NAME)
-
 fclean:
 	$(RM) $(NAME)
 	$(RM) $(OBJ)
-
 re:
 	$(RM) -f $(OBJ) $(NAME)
