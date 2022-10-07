@@ -2,13 +2,14 @@
 /**
  * print_diagonal - draws a diagonal lin
  */
-void print_line(int n)
+void print_diagonal(int n)
 {	
 	int s, d;
 	
 
 	if (n <= 0)
 	{
+		for (d = 0; d < n; d++)
 		_putchar('\n');
 	}
 	else
