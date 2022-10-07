@@ -1,7 +1,6 @@
 #include "main.h"
-
 /**
- * print_most_number - prints the numbers fron 0 to 9
+ * print_most_numbers - prints the numbers fron 0 to 9
  *
  */
 void print_most_numbers(void)
@@ -16,5 +15,5 @@ void print_most_numbers(void)
 		}
 	n++;
 	}
-	_pitchar('\n');
+	_putchar('\n');
 }
