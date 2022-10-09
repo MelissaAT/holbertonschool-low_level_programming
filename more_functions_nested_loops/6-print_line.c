@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - draws a strigth line
+ * @n: variable
  */
 void print_line(int n)
 {
