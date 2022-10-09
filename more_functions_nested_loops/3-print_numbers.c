@@ -2,7 +2,7 @@
 
 /**
  *  print_numbers - multiplies two integers
- *  
+ *
  */
 void print_numbers(void)
 {
@@ -15,5 +15,4 @@ void print_numbers(void)
 	}
 		_putchar('\n');
 
-	
 }
