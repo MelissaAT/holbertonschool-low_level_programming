@@ -29,7 +29,7 @@ char *_strstr(char *haystack, char *needle)
 				break;
 		}
 		p2 = needle;
-		if (j == needle[j])
+		if (j == needle[j + 1])
 			return (p1);
 		{
 			f = 1;
@@ -37,7 +37,7 @@ char *_strstr(char *haystack, char *needle)
 	p1++;
 }
 if (f == 0)
-	return (p2 + f);
+	return (p2 + i);
 }
 return (NULL);
 }
