@@ -29,14 +29,14 @@ char *_strstr(char *haystack, char *needle)
 		}
 		p2 = needle;
 		if (j == needle[j])
-			return (haystack);
+			return (p1);
 		{
 			f = 1;
 		}
 	p1++;
 }
 if (f == 0)
-	return (needle);
+	return (p2);
 }
-return (haystack);
+return (p1 + i);
 }
