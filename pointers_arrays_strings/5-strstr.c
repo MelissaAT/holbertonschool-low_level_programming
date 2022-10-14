@@ -36,7 +36,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 	p1++;
 }
-if (f == 0)
+if (f >= 0)
 	return (p2 - i);
 }
 return (NULL);
