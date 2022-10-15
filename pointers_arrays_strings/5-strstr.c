@@ -7,37 +7,26 @@
  * Return: pointer to the beginning
  */
 char *_strstr(char *haystack, char *needle)
-{	
-	char *p1, *p2, *p3;
-	int i, j, f;
-	
-	p1 = haystack;
-	p2 = needle;
+{
+	int n, j;
 
-	for ( i = 0; haystack[i] != '\0'; i++)
+	if (needle[0] == '\0')
+		return (haystack);
+
+	for (n = 0; haystack[n] != '\0'; n++)
 	{
-		if( *p1 == *p2)
+		if (haystack[n] == needle[0])
 		{
-			p3 = p1;
-		for (j = 0; needle[j] != '\0'; j++)
-		{ 
-			if ( *p3 == *p2)
-			{ 
-				p3++; p2++;
+			for (j = 0; needle[j] != '\0'; j++)
+			{
+				if (haystack[n + j] != needle[j])
+				{
+					break;
+				}
 			}
-			else 
-				break;
+		if (needle[j] == '\0')
+			return (haystack + n);
 		}
-		p2 = needle;
-		if (j == needle[j + 1])
-			return (p1);
-		{
-			f = 1;
-		}
-	p1++;
-}
-if (f == 0)
-	return (p2 + i);
-}
-return (NULL);
+	}
+	return ('\0');
 }
