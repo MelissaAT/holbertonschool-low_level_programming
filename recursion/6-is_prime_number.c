@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * is_prime_number - returns if the imput integer is a prime number
+ * is_prime_number - returns if the input integer is a prime number
  * prime - funtion created
  * @n: number
  * @i: variable
+ * Return: prime number
  */
 int prime(int i, int n);
 
@@ -11,6 +12,13 @@ int is_prime_number(int n)
 {
 	return (prime(2, n));
 }
+/**
+ * prime - function created
+ * Return: prime number
+ * @i: variable
+ * @n: variable
+ */
+
 int prime(int i, int n)
 {
 	if (n <= 1)
