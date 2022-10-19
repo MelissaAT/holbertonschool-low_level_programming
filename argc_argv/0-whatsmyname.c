@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * @argc: counts arguments
- * *argv: s array of character pointers listing all the arguments
+ * @argv: s array of character pointers listing all the arguments
  * Return: Always (success)
  */
 int main(int argc, char *argv[])
