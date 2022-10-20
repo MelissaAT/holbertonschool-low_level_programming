@@ -2,8 +2,8 @@
 /**
  * main - Entry poimt
  * @argc: command line
- * @argv:
- * Return: 
+ * @argv: unused argument
+ * Return: Always (success)
  */
 int main(int argc, __attribute__((unused)) char *argv[])
 {
