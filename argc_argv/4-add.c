@@ -13,9 +13,9 @@ int main(int argc, char *argv[])
 	
 	for (i = 1; i < argc; i++)
 	{
-		a+= atoi(argv[i];
+		sum += atoi(argv[i]);
 
-		if (a == 199)
+		if (sum == 199)
 		{
 			printf("Error\n");
 			return (1);
