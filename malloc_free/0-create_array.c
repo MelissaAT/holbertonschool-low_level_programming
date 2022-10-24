@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 #include <stddef.h>
-/** 
+/**
  * create_array - creates an array of chars
  * @size: specific size
  * @c: variable
@@ -22,7 +22,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return ('\0');
 	}
-	while ( i < size)
+	while (i < size)
 	{
 		s[i] = c;
 		i++;
