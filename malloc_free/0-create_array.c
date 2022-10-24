@@ -18,6 +18,10 @@ char *create_array(unsigned int size, char c)
 		return ('\0');
 	}
 	i = 0;
+	if (size == 0)
+	{
+		return ('\0');
+	}
 	while ( i < size)
 	{
 		s[i] = c;
