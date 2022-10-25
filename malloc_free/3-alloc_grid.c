@@ -3,10 +3,10 @@
 /**
  * alloc_grid - function that returns a pointer a 2 dimensional array of integers
  * @width: of the grid
- * @height: of the grid
+ * @heigth: of the grid
  * Return: NULL on failure
  */
-int **alloc_grid(int width, int height)
+int **alloc_grid(int width, int heigth)
 {
 	int **grid, h, w;
 
