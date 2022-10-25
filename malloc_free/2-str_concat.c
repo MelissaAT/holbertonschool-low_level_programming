@@ -6,7 +6,7 @@
  * @s1: string
  * @s2: string
  * Return: NULL on failure
- *//
+ */
 char *str_concat(char *s1, char *s2)
 {
 	int s1_length, s2_length, size, i = 0;
@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 		s2++;
 		i++;
 	}
-	a[i] = '\0';
+	concat[i] = '\0';
 
 	return (concat);
 }
