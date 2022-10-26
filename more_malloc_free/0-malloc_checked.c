@@ -4,7 +4,7 @@
  * malloc_checked - functions that allocate memory using malloc
  * @b: parameter
  */
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 	int *a;
 	
@@ -16,6 +16,6 @@ void *malloc_checked(unsigned int b);
 	}
 	else
 	{
-		return (a)
+		return (a);
 	}
 }
