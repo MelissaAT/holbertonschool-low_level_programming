@@ -4,29 +4,42 @@
  * _calloc - allocates memory for a array
  * @nmemb: elements of size
  * @size: parameter
+ * Return: .
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i = 0, l = 0;
+	unsigned int i, *n;
 	char *a;
 
 	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
-
-	a = malloc(nmemb * size);
-
-	if (a == NULL)
+	if (size == sizeof(char))
 	{
-		return (NULL);
+		a = malloc(nmemb * size);
+		if (a == NULL)
+		{
+			return (NULL);
+		}
+		for (i = 0; i < nmemb; i++)
+		{
+			a[i] = '0';
+		}
+		return (a);
 	}
+		else
+		{
+		n = malloc(nmemb * size);
 
-	while (i < l)
-	{
-		a[i] = 0;
-		i++;
+		if (n == NULL)
+		{
+			return (NULL);
+		}
+		for (i = 0; i < nmemb; i++)
+		{
+			n[i] = 0;
+		}
 	}
-	return (a);
+		return (n);
 }
-
