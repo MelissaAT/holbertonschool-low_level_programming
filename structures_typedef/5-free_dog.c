@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  *free_dog - free
+*@d: parameter
  */
 void free_dog(dog_t *d)
 {
