@@ -1,4 +1,4 @@
-#ifndef CACL_H
+#ifndef CAlc_H
 #define CALC_H
 /**
  * struct op - Struct op
