@@ -13,7 +13,7 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (temp == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 
 	temp->str = strdup(str);
