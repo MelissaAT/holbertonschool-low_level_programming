@@ -2,7 +2,7 @@
 /**
  * add_nodeint - adds node at the begining
  * @head: doble pointer
- * @str: string
+ * @n: int
  * Return: new node
  */
 listint_t *add_nodeint(listint_t **head, const int n)
