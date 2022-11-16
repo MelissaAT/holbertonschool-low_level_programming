@@ -1,4 +1,4 @@
-#include "lists_t"
+#include "lists.h"
 /**
  * free_list - frees a list
  * @head: begining of the node
