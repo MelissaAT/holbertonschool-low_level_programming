@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_banary - prints de binary representation of a number
+ * print_binary - prints de binary representation of a number
  * @n: number
  */
 void print_binary(unsigned long int n)
