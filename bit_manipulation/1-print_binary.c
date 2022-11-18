@@ -5,7 +5,6 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int i;
 
 	if (n > 1)
 		print_binary(n >> 1);
