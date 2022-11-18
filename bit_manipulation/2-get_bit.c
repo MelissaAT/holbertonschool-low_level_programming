@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * get_bit - unction that returns the value of a bit 
+ * get_bit - unction that returns the value of a bit
  * at a given index
  * @n: number
  * @index: position of number to return
