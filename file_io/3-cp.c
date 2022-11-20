@@ -3,7 +3,7 @@
  *
  *
  */
-void main()
+int main()
 {
 	FILE *fp1 = NULL, *fp2 = NULL;
 	char c;
@@ -26,4 +26,5 @@ void main()
 	}
 	fclose(fp1);
 	fclose(fp2);
+	return (0);
 }
