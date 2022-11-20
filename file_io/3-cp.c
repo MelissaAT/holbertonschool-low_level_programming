@@ -5,7 +5,7 @@
  */
 int main()
 {
-	FILE *fp1 = NULL, *fp2 = NULL;
+	FILE *fp1, *fp2;
 	char c;
 
 	fp1 = fopen("file_from", "r");
