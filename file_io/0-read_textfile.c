@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * read_textfile - 
- * @filename:
- * @letters:
- * Return:
+ * read_textfile - function that reads text file and
+ * prints it to the POSIX STDIO.
+ * @filename: file name
+ * @letters:Number of letters is should read and print
+ * Return:actual number of letters it could read or print
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t i, r;
 	char *fp;
 
-	fp = malloc(sizeof(letters));
+	fp = malloc(sizeof(char) * letters);
 	
 	if (fp == NULL)
 	{
@@ -24,7 +25,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 
 	i = open(filename, O_RDONLY);
-	
+
 	if (i == -1)
 	{
 		free(fp);
