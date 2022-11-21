@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_listint2 - frees a list
+ * free_listsint2 - frees a list
  * @head: pointer to pointer
  */
 void free_listsint2(listint_t **head)
