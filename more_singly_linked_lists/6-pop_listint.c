@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
 * pop_listint - that deletes the head node of a listint_t linked list
 * @head: variable pointer to pointer
