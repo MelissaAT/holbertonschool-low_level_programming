@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * delete_nodeint_at_index - delets a node at index
  * @head: doible pointer
